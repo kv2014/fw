@@ -1,0 +1,21 @@
+<div class="row">
+    <label for="attr" class="col-md-2 control-label">名称</label>
+    <div class="col-md-2" id="attr">
+        <input type="text" class="form-control" ng-model="personName">
+    </div>
+
+    <div class="col-md-1">
+        <button class="btn btn-primary" ng-click="search()">查询</button>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <ul class="list-group">
+                <li class="list-group-item">名字：{{personModel.name}}</li>
+                <li class="list-group-item">年龄：{{personModel.age}}</li>
+                <li class="list-group-item">地址：{{personModel.address}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row text-center">{{aa}}</div>
+</div>

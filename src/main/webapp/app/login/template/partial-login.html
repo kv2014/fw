@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.css"/>
+<link rel="stylesheet" href="../../../content/css/login.css">
+<div class="login-panel container-fluid">
+    <div class="row">
+        <label class="form-label" for="login-name">账号：</label>
+        <input id="login-name" type="text" placeholder="请输入用户名" ng-model="vm.userName"/>
+    </div>
+    <div class="row">
+        <label class="form-label" for="password">密码：</label>
+        <input id="password" type="password" placeholder="请输入密码" ng-model="vm.password"/>
+    </div>
+    <div class="row">
+        <button class="btn btn-sm btn-primary" ng-click="ssLogin()">登录</button>
+        <button class="btn btn-sm btn-info" ng-click="ssReset()">重置</button>
+    </div>
+</div>

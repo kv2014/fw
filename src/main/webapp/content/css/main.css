@@ -1,0 +1,4 @@
+.ss-header, .ss-content, .ss-footer{
+    display: inline-block;
+    width: 100%;
+}
